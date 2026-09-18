@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SIMON Telegram Proxy</title>
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>🛰️ SIMON TELEGRAM PROXY</h1>
+      <p>MTProto Proxy Dashboard</p>
+    </header>
+
+    <section class="status-card">
+      <h2>🟢 SERVER ONLINE</h2>
+      <p id="status">Checking server...</p>
+    </section>
+
+    <section class="info">
+
+      <div class="card">
+        <h3>📡 Proxy</h3>
+        <p>Status: <strong>Online</strong></p>
+        <p>Server: <span id="server">---</span></p>
+        <p>Port: <span id="port">443</span></p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Statistics</h3>
+        <p>Connections: <strong id="connections">0</strong></p>
+        <p>Traffic: <strong id="traffic">0 MB</strong></p>
+        <p>Uptime: <strong id="uptime">0h 0m</strong></p>
+      </div>
+
+    </section>
+
+    <section class="proxy">
+      <h2>🔗 Telegram Proxy</h2>
+
+      <button onclick="connectProxy()">
+        CONNECT TO PROXY
+      </button>
+
+    </section>
+
+    <footer>
+      © SIMON TECH
+    </footer>
+
+  </div>
+
+  <script src="/app.js"></script>
+
+</body>
+</html>
